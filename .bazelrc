@@ -1,4 +1,4 @@
 # Cube target configuration.
-build:cube --host_crosstool_top=@bazel_tools//tools/cpp:toolchain
-build:cube --crosstool_top=//tools/arm_compiler:toolchain
-build:cube --cpu=armeabi-v7a
+build:arm --host_crosstool_top=@bazel_tools//tools/cpp:toolchain
+build:arm --crosstool_top=//tools/arm_compiler:toolchain
+build:arm --cpu=armeabi-v7a
