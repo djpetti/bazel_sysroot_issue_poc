@@ -61,7 +61,7 @@ filegroup(
   srcs = glob([
     "arm-linux-gnueabihf/**",
     "lib/gcc/arm-linux-gnueabihf/**",
-    "libexec/gcc/arm-linux-gnueabihf/**",
+    "libexec/**",
     "include/**",
   ], exclude = []),
 )
